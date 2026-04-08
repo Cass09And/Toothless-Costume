@@ -1,0 +1,20 @@
+Eyes
+
+parts:
+    - 1x TBD Arduino board // currently unknown Arduino Microcontroller
+    - 2x 1.28 Inch TFT LCD Display Screen Module Round RGB 240 * 240 GC9A01 Driver 4 Wire SPI for Arduino
+        // for the eye pupil movement & assisting with the iris with the remaining space from the screen
+    - 2x Addressable LED Ring - 12 Bit WS2812 RGB LED //LED ring for each iris
+
+
+
+
+   _________
+  /         \
+ |   _____   |
+ |  /     \  |
+ |  \_____/  |
+  \_________/
+
+Outer: LED ring
+Centre: LCD Screen
