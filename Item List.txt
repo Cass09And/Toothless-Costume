@@ -1,14 +1,14 @@
-Item List
-Known & researching Item / Equipment list (excl. Tools) In Order of Location
+Parts List
+Known & researching Part / Item / Equipment list (excl. Tools) In Order of Location
 
 Body (incl. Wings, Spine & Tail)
 2 Identical in size, Adult Umbrellas (For Wings)
-2-4 Micro Servo Motors (For Spike Alpha Mode Simulation)
+[Unknown Type] 2-4 Micro Servo Motors (For Spike Alpha Mode Simulation)
 1 Kids Umbrella (For Tail Wing/ Fin - TBD)
 Pool Noodle (For Tail)
 Aluminium strips (For Brace to hold body parts)
 [Unknown QTY & Length] RGB LED strip (For the Spine Alpha Plasma Simulation)
-2 Micro Servo Motors (For Spike Alpha Mode Simulation)
+[Unknown Type] 2 Micro Servo Motors (For Spike Alpha Mode Simulation)
 1 Toothless Onesie (As the Body 'Skin')
 1 pair Plush Dinosaur Claw Slippers (as the Back Feet)
 1 pair Black Gloves (As the front Feet)
