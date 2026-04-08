@@ -1,0 +1,7 @@
+Shopping List
+
+USE	QTY	ITEM:							Shop & LINK			$ 4 1		$ 4 QTY
+Eyes	2	1.28 Inch TFT Round Display LCD Screen			Ebay: 327085010386		$10.46		$20.92
+					
+					
+					
