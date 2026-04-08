@@ -1,0 +1,198 @@
+RGB LED RINGS
+WIRING, TEST CODES & INFO
+
+Originally from ChatGPT
+
+
+RGB LED rings (WS2812 / NeoPixel) so you can control both eyes cleanly alongside your screens.
+
+You’ve got:
+
+2 × 12-LED rings
+chained together → 24 LEDs total
+
+---
+
+🧠 How Your LED Rings Work
+
+Because you chained them:
+
+LED 0–11   → Left eye
+LED 12–23  → Right eye
+
+So in code, you control both eyes from one strip.
+
+---
+
+📦 Library Setup
+
+Install:
+
+Adafruit NeoPixel
+
+---
+
+🔧 Basic Setup Code
+
+#include <Adafruit_NeoPixel.h>
+
+#define LED_PIN 27
+#define NUM_LEDS 24
+
+Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
+
+void setup() {
+  strip.begin();
+  strip.show(); // turn everything off
+}
+
+---
+
+🎯 Core Functions (YOU WILL USE THESE)
+1. Set Left & Right Eye Colours
+
+void setEyes(uint32_t leftColor, uint32_t rightColor) {
+  // Left eye
+  for(int i = 0; i < 12; i++) {
+    strip.setPixelColor(i, leftColor);
+  }
+
+  // Right eye
+  for(int i = 12; i < 24; i++) {
+    strip.setPixelColor(i, rightColor);
+  }
+
+  strip.show();
+}
+
+---
+
+2. Easy Colour Helper
+
+uint32_t green  = strip.Color(0, 255, 0);
+uint32_t yellow = strip.Color(255, 180, 0);
+uint32_t orange = strip.Color(255, 80, 0);
+uint32_t red    = strip.Color(255, 0, 0);
+uint32_t blue   = strip.Color(0, 100, 255);
+
+
+---
+
+🐉 Toothless Eye Modes
+Calm (soft green glow)
+setEyes(green, green);
+Curious (yellow-ish)
+setEyes(yellow, yellow);
+Angry (orange/red)
+setEyes(orange, red);
+Alpha mode (blue glow)
+setEyes(blue, blue);
+
+---
+
+✨ Smooth Glow (Breathing Effect)
+This makes the eyes feel alive.
+
+void breathingEffect(uint32_t color) {
+  for(int b = 10; b < 255; b += 5) {
+    for(int i=0;i<24;i++) {
+      strip.setPixelColor(i, strip.Color(
+        (color >> 16 & 255) * b / 255,
+        (color >> 8 & 255) * b / 255,
+        (color & 255) * b / 255
+      ));
+    }
+    strip.show();
+    delay(20);
+  }
+
+  for(int b = 255; b > 10; b -= 5) {
+    for(int i=0;i<24;i++) {
+      strip.setPixelColor(i, strip.Color(
+        (color >> 16 & 255) * b / 255,
+        (color >> 8 & 255) * b / 255,
+        (color & 255) * b / 255
+      ));
+    }
+    strip.show();
+    delay(20);
+  }
+}
+
+Use:
+
+breathingEffect(green);
+
+
+---
+
+🔥 Eye Ring Animation (Rotating Glow)
+
+This adds motion around the eye.
+
+void rotateEffect(uint32_t color) {
+  for(int j=0; j<12; j++) {
+    strip.clear();
+
+    // left eye
+    strip.setPixelColor(j, color);
+
+    // right eye
+    strip.setPixelColor(j+12, color);
+
+    strip.show();
+    delay(60);
+  }
+}
+
+---
+
+⚡ Power Safety (IMPORTANT)
+
+For your 2 rings:
+
+Max current ≈ 1.4A
+Use:
+USB power bank OR
+5V battery pack
+
+👉 Always connect GND to Arduino/ESP32
+
+---
+
+🎯 Best Way to Combine With Screens
+
+Match LED ring with screen emotion:
+
+Emotion		Screen		LED
+Calm		round pupil	soft green
+Alert		slit		yellow
+Angry		narrow slit	orange/red
+
+---
+
+💡 Pro Trick (Huge visual boost)
+
+Instead of solid colour:
+
+inner LEDs → brighter
+outer LEDs → dimmer
+
+Creates a gradient glow → looks WAY more realistic.
+
+---
+
+🐉 Final Result
+
+With:
+
+- round screens (pupil + iris)
+- LED rings (glow + mood)
+
+👉 you get:
+
+- depth
+- emotion
+- realism
+
+This is basically movie-style animatronic eyes.
