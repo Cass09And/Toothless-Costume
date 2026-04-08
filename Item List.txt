@@ -2,6 +2,7 @@ Parts List
 Known & researching Part / Item / Equipment list (excl. Tools) In Order of Location
 
 Body (incl. Wings, Spine & Tail)
+
 2 Identical in size, Adult Umbrellas (For Wings)
 [Unknown Type] 2-4 Micro Servo Motors (For Spike Alpha Mode Simulation)
 1 Kids Umbrella (For Tail Wing/ Fin - TBD)
@@ -13,20 +14,27 @@ Aluminium strips (For Brace to hold body parts)
 1 pair Plush Dinosaur Claw Slippers (as the Back Feet)
 1 pair Black Gloves (As the front Feet)
 
+
 Head
+
 OVERALL/OTHER 
+
 Black PLA Filament (Unknown Variant) (For the Head)
 [Unknown QTY] (Unknown Bundle size/amount) RGB LED's (For the Plasma Simulations)
 2 Micro Servo Motors (For Wishful bonus Feature - Moving ears)
 Bicycle Helmet Strap (To secure the head) 
+
 TOP OF HEAD
 [Unknown QTY & Length] RGB LED strip (For the Spine)
+
 MOUTH
 2-4 9G Micro Servo Motors (For Wishful bonus Feature - Retractable Teeth)
 [Unknown QTY] Single RGB LED's (For the Plasma Simulations)
+
 EYES
 2x Addressable LED Rings [12 Bit WS2812 RGB LED] (For the Eyes - each iris)
 2x 1.28 Inch TFT LCD Display Screen Module [Round RGB 240 * 240 GC9A01 Driver 4 Wire SPI] (For the Eyes - each pupils)
+
 NOSE
 TO BE DETERMEND WHICH ONE OR COMBO TO USE FOR THE NOSE INPUT SENSOR/S
 1 Capacitive Touch Sensor
@@ -35,6 +43,7 @@ with Copper conductive material
 1 PIR Motion Detector Module 
 
 Other Electronics
+
 Arduino Motherboard (Unknown model)
 Resistors (Unknown Capacities or QTY's)
 External Battery Pack (Unknown size, Type, Voltages, Amps, Watts or QTY)
