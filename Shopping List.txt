@@ -1,7 +1,16 @@
 Shopping List
 
-USE	QTY	ITEM:							Shop & LINK			$ 4 1		$ 4 QTY
+USE		QTY	ITEM:											Shop & Code				$ 4 1		$ 4 QTY
 Eyes	2	1.28 Inch TFT Round Display LCD Screen			Ebay: 327085010386		$10.46		$20.92
-					
-					
-					
+Eyes	2	Addressable LED Ring - 16 Bit WS2812 RGB LED	Core: CE05353			$10.95		$21.90
+Body	1	Toothless Dragon Jumpsuit Pajamas Unisex Adult 	Ebay: 203035309231 		$26.95		$26.95
+Feet	1	Adults Claw Slipper Animal Feet Shoes - Med		Ebay: 167694987727		$17.95		$17.95
+Head	1	Filament
+Head	1	clear gloss coat spray
+Other	1	Arduino Board
+
+
+
+TBD
+Nose	1	Capacitive Touch Breakout - AT42QT1010			Core: SEN-12041			 $6.90		 $6.90
+Nose	1	6"x6" Flex PCB Material - AC 352500EY 			Core: ADA1894			$19.35		$19.35
