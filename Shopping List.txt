@@ -1,23 +1,32 @@
 Shopping List
 
-USE	 QTY ITEM:									                  Shop & Code			   	$ 4 1		$ 4 QTY
-Eyes	2  1.28 Inch TFT Round Display LCD Screen			      Ebay: 327085010386		$10.46		$20.92
-Eyes	2  Addressable LED Ring - 16 Bit WS2812 RGB LED	          Core: CE05353			    $10.95		$21.90
-Body	1  Toothless Dragon Jumpsuit Pajamas Unisex Adult         Ebay: 203035309231 		$26.95		$26.95
-Feet	1  Adults Claw Slipper Animal Feet Shoes - Med		      Ebay: 167694987727		$17.95		$17.95
-Head	1  Black PLA Filament           [TBC]
-Head	1  clear gloss coat spray               [TBR]
-Other	1  Arduino Board                [TBC]
-Other   1  Battery                      [TBC]
-Wings   2  MG996R Servo Motor                   [TBR]
-Head    1  SG90 9G Gear Micro Servo Motor - (4PCS)                  Ebay: 192589541252         $9.16        $9.16
-Spine   _  Servo Motor                  [TBC]
-Spine   1  5V Flexible LED Strip (60 LEDs) - Blue [1m]              Core: FIT0838            $10.10       $10.10
-RGB LED (Mouth)
-RGB LED (Nose)
-RGB LED (Top of head)
+USE	    QTY ITEM:					  				                          Shop & Code			     	$ 4 1		  $ 4 QTY
+Eyes	   2  1.28 Inch TFT Round Display LCD Screen			      Ebay: 327085010386		$10.46		$20.92
+Eyes	   2  Addressable LED Ring - 16 Bit WS2812 RGB LED	    Core: CE05353			    $10.95		$21.90
+
+
+Body	   1  Toothless Dragon Jumpsuit Pajamas Unisex Adult    Ebay: 203035309231 		$26.95		$26.95      $26.95
+Feet	   1  Adults Claw Slipper Animal Feet Shoes - Med		    Ebay: 167694987727		$17.95		$17.95              $17.95
+Head	   1  Elegoo PLA plus filament Black 1.75mm 1kg         Jaycar: TL6457        $19.95    $19.95      $19.95
+Head     3  White Knight Crystal Clear Gloss Spray            Bunnings: 1560611     $11.90    $35.70      $35.70
+Other    1  Arduino Board                [TBC]
+Other    1  Battery                      [TBC]
+
+
+
+
+Wings    2  ds3218 servo motor                   [TBR]
+Wings    2  MG996R Servo Motor                   [TBR]
+Head     1  SG90 9G Gear Micro Servo Motor - (4PCS)            Ebay: 192589541252     $9.16     $9.16
+Spine    _  Servo Motor                  [TBC]
+
+
+Spine    1  5V Flexible LED Strip (60 LEDs) - Blue [1m]        Core: FIT0838         $10.10    $10.10
+Mouth       RGB LED                              [TBR]
+Nose        RGB LED                              [TBR]
+Head        RGB LED                              [TBR]
 
 
 TBD
-Nose	1	Capacitive Touch Breakout - AT42QT1010		        Core: SEN-12041		       $6.90		 $6.90
-Nose	1	6"x6" Flex PCB Material - AC 352500EY 		    	  Core: ADA1894		     	$19.35		$19.35
+Nose	1	Capacitive Touch Breakout - AT42QT1010		            Core: SEN-12041		     $6.90		 $6.90
+Nose	1	6"x6" Flex PCB Material - AC 352500EY 		    	      Core: ADA1894		     	$19.35		$19.35
